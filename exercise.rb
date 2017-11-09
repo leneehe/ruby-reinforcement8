@@ -6,4 +6,5 @@ puts "The data type of the value that goes with the first key is " + house["obje
 puts house.keys[-1]
 puts "The data type of the value that goes with the last key is " + house[house.keys[-1]].class.to_s
 puts "There are " + house["objects"].length.to_s + " representatives in this collection"
-puts house[house.keys[0]][0]["photo_url"]
+my_photo = house[house.keys[0]][0]["photo_url"]
+puts my_photo
